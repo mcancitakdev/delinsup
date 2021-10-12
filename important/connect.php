@@ -1,22 +1,5 @@
 <?php 
-
-// private $MYSQL_HOST2='ni-may.guzelhosting.com';
-	// private $MYSQL_USER2='canhilal_info';
-	// private $MYSQL_PASS2='Rir.1973@burki';
-	// private $MYSQL_DB2='canhilal_love';
-	// //private $MYSQL_DB2='panel';
-	// private $CHARSET2='UTF8';
-	// private $COLLATION2='utf8_general_ci';
-	// private $pdo2=null;
-	// private $stmt2=null;
-	/*
-	//kısaltmalar
-	$vt=veritabani 
-	*/
-	// $hsot_adresi		="ni-may.guzelhosting.com";
-	// $vt_kullanici_adi 	= "canhilal_info";
-	// $vt_sifre  			= "Rir.1973@canhilal";
-	// $vt_adi 			= "canhilal_love";
+	
 	$hsot_adresi		="localhost";
 	$vt_kullanici_adi 	= "root";
 	$vt_sifre  			= "";
