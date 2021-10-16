@@ -1,6 +1,4 @@
 <?php 
-
-
 include('connect.php');
 include('function.php');
 $query=$db->prepare("SELECT * FROM  languages WHERE active='1' ORDER BY lang_id ASC ");
@@ -38,7 +36,6 @@ if(isset($_POST['insertForm']))
 				$postVeriable=str_replace("$langCode",'', $postVeriable);
 				//insert list(title,text1,text2,text3);
 				array_push($arrayList, $postVeriable);
-				
 			}
 		}
 		$i=1;
